@@ -1,0 +1,8 @@
+.presentation-container {
+  flex: 0 0 32%;
+  text-align: left;
+  margin: 0 auto;
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+}

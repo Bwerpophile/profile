@@ -1,0 +1,78 @@
+
+.card-about-me{
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+}
+
+.bio{
+  flex: 0 0 32%;
+}
+
+.title-bio {
+  width: 34%;
+}
+
+.biodescription {
+  margin-top: 8%;
+  text-align: justify;
+  padding: 0 2.1rem;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+}
+
+.personal-infos {
+  flex: 0 0 32%;
+}
+
+.personal-infos-title {
+  width: 29%;
+}
+
+.infos {
+   margin-top: 8%;
+}
+
+.infos > li {
+  list-style: none;
+  background-color: #4c4c4c;
+  height: 64px;
+  padding: 2%;
+  margin-bottom: 1%;
+  color: white;
+  font-family: 'sarabun';
+  font-size: 1.7rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  padding-top: 17px;
+}
+
+.personal-skills {
+  flex: 0 0 26%;
+}
+
+.skills-title {
+  width: 35%;
+}
+
+.logos {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  justify-content: space-around;
+}
+
+.back {
+  display: flex;
+  justify-content: space-around;
+}
+.front {
+  display: flex;
+  justify-content: space-around;
+}
+.skills-image {
+  width: 150px;
+  height: 150px;
+}

@@ -1,0 +1,50 @@
+.title {
+  font-weight: 100;
+  border: 2px solid white;
+  align-items: center;
+  padding: 1%;
+  margin-top: 2%;
+  letter-spacing: 2px
+}
+
+.titre-2 {
+  font-weight: 400;
+  font-size: 2.1875rem;
+  font-family: 'Sarabun';
+  background-color: #ffd10c;
+  color: white;
+  letter-spacing: 0.18rem;
+}
+
+.title-3 {
+  text-align: center;
+  border-bottom: 4px solid #ffd10c;
+  font-size: 24px;
+  padding-bottom: 8px;
+  font-weight: 500;
+  letter-spacing: 3px;
+
+}
+
+.container-title {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me {
+  margin-top: 2%;
+  height: 6%;
+  max-width: 12%;
+  max-height: 4rem;
+  min-width: 17.5rem;
+  padding-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.experience {
+
+}
+
+.margin-title-3 {
+  margin: 0 auto;
+}
