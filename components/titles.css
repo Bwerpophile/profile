@@ -29,6 +29,7 @@
 .container-title {
   display: flex;
   justify-content: center;
+  max-height: 100px;
 }
 
 .about-me {
