@@ -75,7 +75,7 @@ ul{
 /*Media queries*/
 
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 500px) {
   .container-infos {
     padding-top: 5rem;
   }
@@ -87,6 +87,12 @@ ul{
   }
   .titre-2: {
     margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+    .titre-2 {
+    margin-top: 5%;
   }
 }
 
