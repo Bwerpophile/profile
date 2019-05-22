@@ -79,9 +79,6 @@ ul{
   .container-infos {
     padding-top: 5rem;
   }
-  .card-about-me {
-    min-height: 2000px;
-  }
   .presentation-container {
   margin-top: 5%;
   }
@@ -110,14 +107,14 @@ ul{
     padding-top: 10rem;
     height: 88vh;
   }
-   .card-about-me {
-  flex-direction: column;
-  }
   .card-about-me {
-    min-height: 1260px;
+    flex-direction: column;
   }
    .titre-2 {
     margin-top: 2%;
+  }
+   .card-basic {
+    min-height: 750px;
   }
 }
 
@@ -153,7 +150,6 @@ ul{
   }
 }
 
-
 @media screen and (max-width: 1200px){
  .bio {
     flex: 1 100%;
@@ -167,9 +163,7 @@ ul{
    .container-infos {
     padding-top: 4rem;
   }
-  .card-basic {
-    min-height: 750px;
-  }
+
 }
 
 @media all and (max-width:1999px) {
