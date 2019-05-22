@@ -13,6 +13,7 @@ body {
   height: 8vh;
   justify-content: center;
   position: sticky;
+  max-height: 50px;
 }
 
 .social-media {
