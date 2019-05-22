@@ -82,10 +82,12 @@ ul{
   .card-about-me {
     min-height: 2000px;
   }
-    .presentation-container {
-    margin-top: 5%;
+  .presentation-container {
+  margin-top: 5%;
   }
-
+  .titre-2: {
+    margin-top: 60px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -108,6 +110,9 @@ ul{
   .card-about-me {
     min-height: 1260px;
     margin-bottom: 90px;
+  }
+   .titre-2 {
+    margin-top: 2%;
   }
 }
 
