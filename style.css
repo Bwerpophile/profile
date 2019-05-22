@@ -115,7 +115,6 @@ ul{
   }
   .card-about-me {
     min-height: 1260px;
-    margin-bottom: 90px;
   }
    .titre-2 {
     margin-top: 2%;
@@ -124,8 +123,6 @@ ul{
 
 @media screen and (min-width: 1400px) {
   .card-about-me {
-    min-height: 685px;
-    margin-bottom: 90px;
   }
 }
 
@@ -169,6 +166,9 @@ ul{
   }
    .container-infos {
     padding-top: 4rem;
+  }
+  .card-basic {
+    min-height: 750px;
   }
 }
 
