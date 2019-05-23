@@ -129,7 +129,11 @@ ul{
 @media all and (max-width: 500px) {
   .card-about-me {
     flex-direction: column;
-  }
+    }
+  .personal-skills {
+    margin-bottom: 50px;
+    }
+}
 
 
 @media all and (max-width: 720px) {
@@ -146,9 +150,6 @@ ul{
   .personal-infos {
     flex: 1 100%;
   }
-  .personal-skills {
-    flex: 1 auto;
-  }
 }
 
 @media screen and (max-width: 1200px){
@@ -157,9 +158,6 @@ ul{
   }
   .personal-infos {
     flex: 1 100%;
-  }
-  .personal-skills {
-    flex: 1 auto;
   }
    .container-infos {
     padding-top: 4rem;
