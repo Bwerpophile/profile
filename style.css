@@ -80,11 +80,14 @@ ul{
   .container-infos {
     padding-top: 5rem;
   }
-  .presentation-container {
-  margin-top: 5%;
-  }
   .titre-2: {
     margin-top: 60px;
+  }
+  .personal-skills {
+    margin-bottom: 50px;
+    }
+  .margin-container-title {
+    margin-top: 50px;
   }
 }
 
@@ -105,7 +108,7 @@ ul{
   margin-right: 32%;
   }
   .container-infos {
-    padding-top: 10rem;
+    padding-top: 6rem;
     height: 88vh;
   }
   .card-about-me {
@@ -129,9 +132,6 @@ ul{
 @media all and (max-width: 500px) {
   .card-about-me {
     flex-direction: column;
-    }
-  .personal-skills {
-    margin-bottom: 50px;
     }
 }
 
@@ -163,11 +163,4 @@ ul{
     padding-top: 4rem;
   }
 
-}
-
-@media all and (max-width:1999px) {
-
-  .container-infos {
-    padding-top: 13rem;
-  }
 }
