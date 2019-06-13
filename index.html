@@ -26,7 +26,7 @@
     <div class="nav-bar">
       <input type="button" class="button btn-primary bouton" value="About me" onClick="document.querySelector('.about-me').scrollIntoView();" />
       <input type="button" class="button btn-primary bouton" value="Expériences" onClick="document.querySelector('.experience-button').scrollIntoView();" />
-      <input type="button" class="button btn-primary bouton" value="Formations" onClick="document.getElementById('card-about').scrollIntoView();" />
+      <input type="button" class="button btn-primary bouton" value="Formations" onClick="document.querySelector('.formations').scrollIntoView();" />
       <input type="button" class="button btn-primary bouton" value="Projets" onClick="document.getElementById('card-about').scrollIntoView();" />
     </div>
 
@@ -55,7 +55,8 @@
             <a href="https://twitter.com/?lang=fr"><i class="fab fa-twitter social-media"></i></a>
           </li>
         </ul>
-        <input type="button" class="button btn-primary download" value="TELECHARGER CV"/>
+        <button type="button" href="cv-lespagnol.pdf" value="TELECHARGER CV" class="button btn-primary download" onclick="window.open('cv-lespagnol.pdf')" >TELECHARGER CV</button>
+
       </div>
     </div>
 
@@ -112,14 +113,15 @@
           </div>
         </div>
         <div class="presentation-container personal-infos">
-          <img class="experience-image" src="images/m2agcom.png" alt="Master 2 Agcom">
+          <a href="https://www.masteragcom.org"> <img class="experience-image" src="images/m2agcom.png" alt="Master 2 Agcom"></a>
             <div class="presentation biodescription">
               Lors de ma dernière année d'études, j'ai pris part activement à la communication du Master 2 AGCOM. A travers divers supports nous avons activement fait la promotion de notre filière. <br/>
               Durant 6 mois nous avons mis en place un magazine bi-mensuel portant sur des sujets d'actualités en lien avec la communication que nous diffusions en ligne sous le nom de MagCom disponible sur le site du Master. <br/> Nous avons également réalisé une vidéo promotionnelle de notre filière à destination des futurs candidats ainsi que plusieurs vidéos d'interviews d'étudiants de l'université en partenariat avec Dior Love Chain.
             </div>
         </div>
         <div class="presentation-container">
-          <img class="experience-image festival-alignement" src="images/festival.png" alt="festival interceltique">
+          <a href="https://www.festival-interceltique.bzh">
+          <img class="experience-image festival-alignement" src="images/festival.png" alt="festival interceltique"></a>
           <div class="biodescription presentation-festival">
             Arrivé peu de temps avant le début du festival, j'ai contribué à la gestion des stocks et des plannings pour le six boutiques officielles dispersées sur le site.<br/> Pendant les dix jours d'exploitations, j'ai veillé au bon fonctionnement de chaque boutique en m'assurant de leur mise en place, des roulements des bénévoles ainsi que de la fermeture des dîtes boutiques. Cette expérience m'a permis d'acquérir une capacité à prendre des décisions efficaces dans des situations stressantes.
           </div>
@@ -127,22 +129,39 @@
       </div>
 
       <div class="container-title">
-        <h2 class="about-me titre-2">FORMATIONS</h2>
+        <h2 class="about-me titre-2 formations">FORMATIONS</h2>
       </div>
       <div class="experience-container card-about-me">
         <div class="presentation-container bio">
-          <img class="experience-image" src="images/m2agcom.png" alt="Master Agcom">
+          <a href="https://www.masteragcom.org">
+          <img class="experience-image" src="images/m2agcom.png" alt="Master Agcom"></a>
             <div class="presentation biodescription">
               Après une licence Information-Communication à Rennes, ainsi qu'un master 1 Relations publiques à Montepellier, j'ai souhaité finir mes études au sein du master II Agcom situé à Toulouse 1 Capitole. <br/>
-              J'ai tout au long de mes études aiguisées mes connaissances en communication aussi bien interne que externe. Ma dernière année d'études m'a permis de confirmer mes acquis et d'apprendre de nouvelles compétences notamment en stratégie de communication à travers un approche professionnalisante.
+              J'ai tout au long de mes études aiguisées mes connaissances en communication aussi bien interne qu'externe. Ma dernière année d'études m'a permis de confirmer mes acquis et d'apprendre de nouvelles compétences notamment en stratégie de communication à travers un approche professionnalisante.
           </div>
         </div>
         <div class="bio presentation-container">
-          <img class="experience-image" src="images/lewagon-1.png" alt="Le Wagon">
+          <a href="https://www.lewagon.com">
+          <img class="experience-image" src="images/lewagon-1.png" alt="Le Wagon"></a>
             <div class="presentation biodescription">
               A la suite de mes études, j'ai souhaité apporté une nouvelle compétence à mon diplome afin de pouvoir m'adapter aux nouvelles technologies. <br/>
               J'ai donc choisi de rejoindre le Wagon en février 2019 pour une formation intensive de 400h sur deux mois. Je dispose donc maintenant des compétences de développeur Web Ruby on rails. Je réalise tout type de sites (vitrine, e-commerce, application web).
             </div>
+        </div>
+      </div>
+      <div class="container-title">
+        <h2 class="about-me titre-2 projet">PROJET</h2>
+      </div>
+      <div class="experience-container card-about-me">
+        <div class="presentation-container bio">
+          <a href="#">
+          <img class="experience-image" src="images/logoBINHERE.png" alt="Master Agcom"></a>
+            <div class="presentation biodescription">
+              A la fin de ma formation au sein du wagon, nous avons eu deux semaines pour réaliser une application web en groupe.
+              Mon projet a été retenu, il s'appelle BinHere.
+              <br/>
+              L'objectif de cette application est de géolocaliser facilement les poubelles à proximité. Afin de rendre l'application intéressante, je souhaite y intégrer une partie gamifiée qui permet aux utilisateurs de nommer les poubelles et d'en devenir propriétaire lorsqu'ils les ajoutent sur le site.
+          </div>
         </div>
       </div>
     </div>
