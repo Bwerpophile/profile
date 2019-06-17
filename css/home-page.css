@@ -4,9 +4,9 @@
 
 .bouton{
   width: 30%;
-  border: none;
+ /* border: none;*/
   background-color: white;
-  color: black;
+  color: #6C6C6C;
   align-items: space-between;
 }
 
