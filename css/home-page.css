@@ -4,10 +4,16 @@
 
 .bouton{
   width: 30%;
- /* border: none;*/
+  border: none;
   background-color: white;
   color: #6C6C6C;
   align-items: space-between;
+}
+
+.bouton:hover {
+  color: #ffd10c;
+  background-color: rbga(255,255,255,0);
+  transform: scale(1.1);
 }
 
 .card-basic {
